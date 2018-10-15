@@ -28,6 +28,7 @@
      alchemist
      doom-themes
      nyan-mode
+     json-mode
      )))
 
 (condition-case nil
