@@ -26,6 +26,7 @@
      projectile
      helm-projectile
      alchemist
+     ace-window
      doom-themes
      nyan-mode
      json-mode

@@ -7,7 +7,7 @@
  '(org-agenda-files (quote ("~/Dropbox/notes/notes.org")))
  '(package-selected-packages
    (quote
-    (json-mode org-plus-contrib alchemist helm neotree elixir-mode doom-themes))))
+    (ace-window json-mode org-plus-contrib alchemist helm neotree elixir-mode doom-themes))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
