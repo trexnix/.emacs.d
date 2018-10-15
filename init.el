@@ -27,6 +27,7 @@
      helm-projectile
      alchemist
      ace-window
+     smart-mode-line
      doom-themes
      nyan-mode
      json-mode
@@ -50,11 +51,10 @@
 (require 'setup-alchemist)
 (require 'setup-ace-jump-mode)
 (require 'setup-projectile)
+(require 'setup-smart-mode-line)
 (require 'key-bindings)
 
 ;; Remove all backup files
 (setq make-backup-files nil)
 (setq backup-inhibited t)
 (setq auto-save-default nil)
-
-
