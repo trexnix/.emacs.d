@@ -1,14 +1,21 @@
 (package-initialize)
 
+;; Set load path for pre-downloaded LISP package
 (setq site-lisp-dir
       (expand-file-name "site-lisp" user-emacs-directory))
 
+;; Set load path for all package's settings
 (setq settings-dir
       (expand-file-name "settings" user-emacs-directory))
 
-;; Set up load path
+;; Set load path for custom functions
+(setq defuns-dir
+      (expand-file-name "defuns" user-emacs-directory))
+
+;; Effectivelly adding previously defined variables to load path
 (add-to-list 'load-path site-lisp-dir)
 (add-to-list 'load-path settings-dir)
+(add-to-list 'load-path defuns-dir)
 
 ;; Keep emacs Custom-settings in separate file
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
@@ -52,6 +59,9 @@
 (require 'setup-ace-jump-mode)
 (require 'setup-projectile)
 (require 'setup-smart-mode-line)
+
+;; Custom functions
+(require 'file)
 (require 'key-bindings)
 
 ;; Remove all backup files
