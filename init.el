@@ -62,6 +62,7 @@
 
 ;; Custom functions
 (require 'file)
+(require 'ctags)
 (require 'key-bindings)
 
 ;; Remove all backup files
