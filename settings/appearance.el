@@ -10,4 +10,8 @@
 ;; Nyan mode
 (nyan-mode 1)
 
+;; Make the cursor blink and update its type to "bar" (equivalent to "text" in CSS)
+(blink-cursor-mode 1)
+(setq-default cursor-type 'bar)
+
 (provide 'appearance)
