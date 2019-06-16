@@ -38,6 +38,7 @@
      doom-themes
      nyan-mode
      json-mode
+     neotree
      )))
 
 (condition-case nil
@@ -59,6 +60,7 @@
 (require 'setup-ace-jump-mode)
 (require 'setup-projectile)
 (require 'setup-smart-mode-line)
+(require 'setup-neotree)
 
 ;; Custom functions
 (require 'file)
