@@ -22,4 +22,14 @@
 (blink-cursor-mode 1)
 (setq-default cursor-type 'bar)
 
+;; Make title bar MacOS transparent
+;; https://www.reddit.com/r/emacs/comments/8lfivt/question_how_to_make_macos_titlebar_same_color_as/
+(add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
+(add-to-list 'default-frame-alist '(ns-appearance . dark))
+
+;; Change title bar content
+;; https://emacs.stackexchange.com/questions/16834/how-to-change-the-title-from-emacshost-to-file-name
+(setq-default frame-title-format '("Relax, you're doing fine"))
+
+
 (provide 'appearance)
