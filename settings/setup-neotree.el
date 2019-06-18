@@ -8,7 +8,7 @@
 ;; Auto reveal currently-opening file when NeoTree is opened
 (setq neo-smart-open t)
 ;; Set icons to acsii
-(setq neo-theme 'arrow)
+; (setq neo-theme 'arrow)
 ;; Switch project will update NeoTree automatically
 (setq projectile-switch-project-action 'neotree-projectile-action)
 
