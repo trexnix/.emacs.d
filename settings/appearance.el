@@ -3,6 +3,9 @@
 ;; Add a space before the number
 (setq linum-format " %d")
 
+;; Show column number of cursor on status bar on the bottom
+(column-number-mode 1)
+
 ;; Highlight current line
 (global-hl-line-mode 1)
 
