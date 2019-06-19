@@ -1,5 +1,7 @@
 ;; Show line number
 (global-linum-mode 1)
+;; Add a space before the number
+(setq linum-format " %d")
 
 ;; Highlight current line
 (global-hl-line-mode 1)
