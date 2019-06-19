@@ -13,7 +13,7 @@
 (doom-themes-visual-bell-config)
 
 ;; Enable custom neotree theme (all-the-icons must be installed!)
-;;(doom-themes-neotree-config)
+(doom-themes-neotree-config)
 ;; or for treemacs users
 ;;(doom-themes-treemacs-config)
 
