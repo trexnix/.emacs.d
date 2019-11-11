@@ -35,8 +35,7 @@
      alchemist
      ace-window
      smart-mode-line
-     doom-themes
-     nyan-mode
+     subatomic-theme
      json-mode
      neotree
      all-the-icons

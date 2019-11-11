@@ -1,7 +1,7 @@
 ;; Show line number
-(global-linum-mode 1)
+; (global-linum-mode 1)
 ;; Add a space before the number
-(setq linum-format " %d")
+; (setq linum-format " %d")
 
 ;; Show column number of cursor on status bar on the bottom
 (column-number-mode 1)
@@ -13,7 +13,7 @@
 (setq-default show-trailing-whitespace t)
 
 ;; Nyan mode
-(nyan-mode 1)
+; (nyan-mode 1)
 
 ;; Maximize window frame on startup
 ;; https://emacs.stackexchange.com/questions/2999/how-to-maximize-my-emacs-frame-on-start-up
