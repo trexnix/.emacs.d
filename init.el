@@ -39,6 +39,7 @@
      nyan-mode
      json-mode
      neotree
+     all-the-icons
      )))
 
 (condition-case nil
