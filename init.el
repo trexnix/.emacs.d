@@ -30,6 +30,7 @@
    '(helm
      helm-ag
      magit
+     git-timemachine
      projectile
      helm-projectile
      alchemist

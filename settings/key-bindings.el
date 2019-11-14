@@ -1,6 +1,9 @@
 ;; Magit
 (global-set-key (kbd "C-x g") 'magit-status)
 
+;; git-timemachine
+(global-set-key (kbd "C-x t") 'git-timemachine)
+
 ;; ace-window
 (global-set-key (kbd "M-o") 'ace-window)
 
